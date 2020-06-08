@@ -1,5 +1,5 @@
 # ailab_flaskapi
-Basic Flask API
+Basic API using Flask and HTML
 
 
 ### Libs to install with pip install
