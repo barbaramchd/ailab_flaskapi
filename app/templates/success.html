@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Success!</h1>
+</body>
+    <picture>
+            <!-- thumbnail -->
+            <source class="img-fluid" srcset="/static/img/uploads/{{img}}-thumbnail.png" media="(max-width: 150px)">
+            <!-- small -->
+            <source class="img-fluid" srcset="/static/img/uploads/{{img}}-540.png" media="(max-width: 540px)">
+            <!-- medium -->
+            <source class="img-fluid" srcset="/static/img/uploads/{{img}}-768.png" media="(max-width: 768px)">
+            <!-- large -->
+            <source class="img-fluid" srcset="/static/img/uploads/{{img}}-1080.png" media="(max-width: 1080px)">
+            <!-- xl -->
+            <source class="img-fluid" srcset="/static/img/uploads/{{img}}-1200.png" media="(max-width: 1200px)">
+            <!-- original -->
+            <img class="img-fluid" src="/static/img/uploads/{{img}}.png" />
+          </picture>   
+          
+</html>
